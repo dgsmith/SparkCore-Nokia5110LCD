@@ -5,6 +5,6 @@
     "license": "Beerware",
     "description": "Adapted from code by Nathan Seidle and mish-mashed with 
     		    code from the ColorLCDShield. This is a simple library for 
-    		    the Nokia 5110 LCD complled for use with a Spark Core/Uno 
+    		    the Nokia 5110 LCD compiled for use with a Spark Core/Uno 
     		    by Grayson Smith"
 }
