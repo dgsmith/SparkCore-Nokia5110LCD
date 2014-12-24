@@ -1,0 +1,10 @@
+{
+    "name": "nokia-5110-lcd",
+    "version": "0.0.1",
+    "author": "Jim Lindblom/Grayson Smith",
+    "license": "Beerware",
+    "description": "Adapted from code by Nathan Seidle and mish-mashed with 
+    		    code from the ColorLCDShield. This is a simple library for 
+    		    the Nokia 5110 LCD complled for use with a Spark Core/Uno 
+    		    by Grayson Smith"
+}
