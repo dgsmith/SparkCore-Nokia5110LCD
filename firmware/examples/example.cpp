@@ -4,7 +4,7 @@
 // text into the serial monitor, and it'll be displayed on the
 // LCD.
 
-#include "nokia-5110-lcd.h"
+#include "nokia-5110-lcd/nokia-5110-lcd.h"
 
 #define PI 3.14159
 
