@@ -33,7 +33,7 @@ Nuances
 
 - The Backlight pin should be able to implement PWM (aka analog pin)
 
-- the Serial data and Serial clock pins should stay at the default A3 and A5, respetively.
+- The Serial data and Serial clock pins should stay at the default A3 and A5, respectively.
 
 
 Building locally
