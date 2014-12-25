@@ -33,7 +33,7 @@ Nuances
 
 - The Backlight pin should be able to implement PWM (aka analog pin)
 
-- the Serial data dnd Serial clock pins should stay at the default A3 and A5, respetively.
+- the Serial data and Serial clock pins should stay at the default A3 and A5, respetively.
 
 
 Building locally
@@ -42,8 +42,7 @@ Building locally
 If you are building locally, place the files here:
 
 ```
-..\core-firmware\inc\neopixel.h
-..\core-firmware\src\application.cpp (renamed from extra-examples.cpp)
-..\core-firmware\src\neopixel.cpp
-..\core-firmware\src\build.mk (optional, if you have your own make file going, just add the neopixel.cpp to it)
+..\core-firmware\inc\nokia-5110-lcd.h
+..\core-firmware\src\application.cpp (renamed from example.cpp)
+..\core-firmware\src\nokia-5110-lcd.cpp
 ```
