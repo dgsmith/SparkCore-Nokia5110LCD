@@ -2,7 +2,7 @@
     "name": "nokia-5110-lcd",
     "author": "Jim Lindblom, Grayson Smith",
     "license": "GNU GPLv3",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "An Implementation of Sparkfun's Nokia 5110 Library for the Spark Core",
     "namespace": "Nokia5110LCD"
 }
