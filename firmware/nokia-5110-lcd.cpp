@@ -45,7 +45,7 @@ byte Nokia5110LCD::Display::displayMap[LCD_WIDTH * LCD_HEIGHT / 8] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, // (72,40)->(83,47) !!! The bottom right pixel!
 };
 
-byte Nokia5110LCD::Display::ASCII[][5] = {
+byte Nokia5110LCD::Display::ASCII[97][5] = {
 	// First 32 characters (0x00-0x19) are ignored. These are
 	// non-displayable, control characters.
 	 {0x00, 0x00, 0x00, 0x00, 0x00} // 0x20  
