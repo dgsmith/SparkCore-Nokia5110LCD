@@ -229,9 +229,9 @@ void Nokia5110LCD::Display::setPixel(int x, int y, boolean bw) {
 		byte shift = y % 8;
 
 		if (bw) // if black, set the bit
-			displayMap[x = (y / 8) * LCD_WIDTH] |= 1 << shift;
+			displayMap[x + (y / 8) * LCD_WIDTH] |= 1 << shift;
 		else	// if white clear the bit
-			displayMap[x = (y / 8) * LCD_WIDTH] &= ~(1 << shift);
+			displayMap[x + (y / 8) * LCD_WIDTH] &= ~(1 << shift);
 	}
 }
 
