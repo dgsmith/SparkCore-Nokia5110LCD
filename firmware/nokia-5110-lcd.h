@@ -142,7 +142,7 @@ namespace Nokia5110LCD
 			// font that is 5 pixels wide and 8 pixels high. Each byte in a row
 			// represents one, 8-pixel, vertical column of a character. 5 bytes
 			// per character. 
-			static byte ASCII[96][5];
+			static byte ASCII[97][5];
 	};
 }
 
