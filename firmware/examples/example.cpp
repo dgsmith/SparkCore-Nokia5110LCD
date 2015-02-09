@@ -134,7 +134,7 @@ void lcdFunTime()
 		// the color set to black.
 		// clearPixel() will call setPixel with with color set to
 		// white.
-		nokiaLCD.setPixel(random(0, LCD_WIDTH), random(0, LCD_HEIGHT));
+		nokiaLCD.setPixel(random(0, LCD_WIDTH), random(0, LCD_HEIGHT), BLACK);
 		// After drawing something, we must call updateDisplay()
 		// to actually make the display draw something new.
 		nokiaLCD.updateDisplay();
